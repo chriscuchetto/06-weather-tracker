@@ -1,7 +1,7 @@
 # 06-weather-tracker
 
 ## Description
-
+A weather application that allows the user to search a city's current weather conditions and then the five-day forecast. Third-Party API's are used to gain access to weather data, which is then used to make specific requests to the url through queries.
 ## Screenshot
 
 
