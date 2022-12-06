@@ -8,12 +8,19 @@
     <title>Weather Tracker</title>
 </head>
 <body>
-    <header class="border-b-2 m-2 p-2 text-center bg-lime-500 text-3xl">Weather Tracker</header>
+    <header class="border-b-2 m-2 p-2 text-center bg-lime-500 text-3xl font-bold">Weather Tracker</header>
+    <div>
     <form class="flex flex-wrap justify-left">
-<input   type="text">
+<input class="searchBar"  type="text">
 <button id="searchBtn" class="border p-2 bg-lime-400">Search</button>
     </form>
-    
+</div>
+<div>
+    <div id="currentWeather" class="row flex flex-wrap justify-center">currentWeather</div>
+
+    <div id="fiveDayForecast" class="row flex flex-wrap justify-center">fiveDayForecast</div>
+
+</div>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
